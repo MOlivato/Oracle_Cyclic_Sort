@@ -1,0 +1,15 @@
+\begin{algorithm}
+\caption*{\textbf{Oracle Ciclic Sort}: Array sorting algorithm producing the minimum number of array writes}
+%\label{alg1}      
+\begin{algorithmic}[1]
+\Procedure{OCS}{}
+	\State {\bf static} $lp \leftarrow$ 0
+	\State $next \textunderscore unfit \leftarrow UO(-1,lp)$
+    \While {$next \textunderscore unfit \neq -1 $}
+		\State $CPS(next \textunderscore unfit, lp)$
+		\State $ fixed \leftarrow next \textunderscore unfit $
+		\State $ next \textunderscore unfit \leftarrow UO(fixed,lp)$
+	\EndWhile
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}

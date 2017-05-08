@@ -1,0 +1,24 @@
+\begin{algorithm}
+\caption{\textsc{Fix Cycle}: Ciclic permutation sorting procedure}
+\label{alg:fix_cycle}      
+\begin{algorithmic}[1]
+\Procedure{\textsc{FixCycle}}{$i$}
+    \State $val \gets v[i]$
+	\Do
+		% Count the number $k$ of elements $< val$
+		\State $k \leftarrow 0$
+		
+		\For	{$j \gets 0$ {\bf to} $n-1$}
+			\If{$j \neq i$ {\bf and} $v[j] < val$}
+				\State $k \leftarrow k + 1$
+			\EndIf
+		\EndFor
+		
+		% Place $val$ in the final position $k$, and pick the next element.
+		\State $temp \leftarrow v[k]$
+		\State $v[k] \leftarrow val$
+		\State $val \gets temp$
+	\doWhile{$k \neq i$}
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}

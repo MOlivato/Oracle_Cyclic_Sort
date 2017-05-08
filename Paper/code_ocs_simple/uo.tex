@@ -1,0 +1,14 @@
+\begin{algorithm}
+\caption{\textsc{Unfit Oracle}: Oracle able to find the index of an unfit array element}
+\label{alg:unfit_oracle}      
+\begin{algorithmic}[1]
+\Function{\textsc{UnfitOracle}}{}
+	\For {$i \leftarrow 0$ {\bf to} $n - 1$}
+			\If{$v[i] > v[i+1]$}
+				\Return {$ i $}
+	\EndIf
+	\EndFor
+	\Return {$ -1 $}
+\EndFunction
+\end{algorithmic}
+\end{algorithm}

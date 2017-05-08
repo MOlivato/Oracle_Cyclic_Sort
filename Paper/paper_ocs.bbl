@@ -1,0 +1,72 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{duijvestijn1972correctness}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Duijvestijn}{D.}%
+     {AJW}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{DA1}
+  \strng{fullhash}{DA1}
+  \field{sortinit}{D}
+  \field{number}{3}
+  \field{pages}{318\bibrangedash 324}
+  \field{title}{Correctness proof of an in-place permutation}
+  \verb{url}
+  \verb http://doc.utwente.nl/85477/1/Duijvestijn72correctness.pdf
+  \endverb
+  \field{volume}{12}
+  \field{journaltitle}{BIT Numerical Mathematics}
+  \field{year}{1972}
+\endentry
+
+\entry{haddon1990cycle}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Haddon}{H.}%
+     {Bruce~K.}{B.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Br Computer Soc}%
+  }
+  \strng{namehash}{HBK1}
+  \strng{fullhash}{HBK1}
+  \field{sortinit}{H}
+  \field{number}{4}
+  \field{pages}{365\bibrangedash 367}
+  \field{title}{Cycle-sort: a linear sorting method}
+  \verb{url}
+  \verb http://comjnl.oxfordjournals.org/content/33/4/365.full.pdf+html
+  \endverb
+  \field{volume}{33}
+  \field{journaltitle}{The Computer Journal}
+  \field{year}{1990}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

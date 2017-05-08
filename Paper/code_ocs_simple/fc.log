@@ -1,0 +1,470 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.25)  12 APR 2017 16:10
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**fc.tex
+(./fc.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+
+! LaTeX Error: Environment algorithm undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{algorithm}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \caption
+            *{\textbf{Fix Cycle}: Ciclic permutation sorting procedure}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \caption*
+             {\textbf{Fix Cycle}: Ciclic permutation sorting procedure}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+
+! LaTeX Error: Environment algorithmic undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \begin{algorithmic}
+                       [1]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.6 \Procedure
+              {FC}{\newline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no F in font nullfont!
+Missing character: There is no C in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 7.
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 7.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 7.
+
+! Undefined control sequence.
+l.8     \State
+               $temp \leftarrow v[sp]$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.9 	\Do
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.10 		\State
+              $val \leftarrow temp$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.11 		\State
+              $counter \leftarrow 0$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (36.49991pt too wide) in paragraph at lines 2--12
+[]\OT1/cmr/bx/n/10 Fix
+ []
+
+
+Overfull \hbox (18.20824pt too wide) in paragraph at lines 2--12
+\OT1/cmr/bx/n/10 Cy-
+ []
+
+
+Overfull \hbox (13.57632pt too wide) in paragraph at lines 2--12
+\OT1/cmr/bx/n/10 cle
+ []
+
+
+Overfull \hbox (15.27425pt too wide) in paragraph at lines 2--12
+\OML/cmm/m/it/10 sp \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (143.17018pt too wide) in paragraph at lines 2--12
+\OML/cmm/m/it/10 initial[]ciclic[]permutation[]position$
+ []
+
+
+Overfull \hbox (34.85649pt too wide) in paragraph at lines 2--12
+\OML/cmm/m/it/10 temp \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (20.48033pt too wide) in paragraph at lines 2--12
+\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 sp\OT1/cmr/m/n/10 ]$
+ []
+
+
+Overfull \hbox (26.4502pt too wide) in paragraph at lines 2--12
+\OML/cmm/m/it/10 val \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (22.07877pt too wide) in paragraph at lines 2--12
+\OML/cmm/m/it/10 temp$
+ []
+
+
+Overfull \hbox (46.73619pt too wide) in paragraph at lines 2--12
+\OML/cmm/m/it/10 counter \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 2--12
+\OT1/cmr/m/n/10 0$ 
+ []
+
+! Undefined control sequence.
+l.13 		\For
+           	{$i \leftarrow 0$ {\bf to} $n-1$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 		\For	{$
+              i \leftarrow 0$ {\bf to} $n-1$}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.13 		\For	{$i \leftarrow 0$ {\bf
+                                   to} $n-1$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+! Undefined control sequence.
+l.14 			\If
+           {$i \neq sp$ {\bf and} $v[i] < val$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 			\If{$i \neq sp$ {\bf
+                             and} $v[i] < val$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+! Undefined control sequence.
+l.15 				\State
+                $counter \leftarrow counter + 1$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.16 			\EndIf
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.17 		\EndFor
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (36.22285pt too wide) in paragraph at lines 13--18
+[]$\OML/cmm/m/it/10 i \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 13--18
+\OT1/cmr/m/n/10 0$
+ []
+
+
+Overfull \hbox (13.78015pt too wide) in paragraph at lines 13--18
+\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 13--18
+\OT1/cmr/m/n/10 1$
+ []
+
+
+Overfull \hbox (14.00064pt too wide) in paragraph at lines 13--18
+\OML/cmm/m/it/10 i \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (9.71875pt too wide) in paragraph at lines 13--18
+\OML/cmm/m/it/10 sp$
+ []
+
+
+Overfull \hbox (24.76222pt too wide) in paragraph at lines 13--18
+\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 i\OT1/cmr/m/n/10 ] \OML/cmm
+/m/it/10 <
+ []
+
+
+Overfull \hbox (13.67247pt too wide) in paragraph at lines 13--18
+\OML/cmm/m/it/10 val$
+ []
+
+
+Overfull \hbox (46.73619pt too wide) in paragraph at lines 13--18
+\OML/cmm/m/it/10 counter \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (41.73627pt too wide) in paragraph at lines 13--18
+\OML/cmm/m/it/10 counter \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 13--18
+\OT1/cmr/m/n/10 1$ 
+ []
+
+! Undefined control sequence.
+l.19 		\State
+              $temp \leftarrow v[counter]$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 		\State $
+               temp \leftarrow v[counter]$
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.20 		\State
+              $v[counter] \leftarrow val$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (54.85649pt too wide) in paragraph at lines 19--21
+[]$\OML/cmm/m/it/10 temp \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (44.72005pt too wide) in paragraph at lines 19--21
+\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 counter\OT1/cmr/m/n/10 ]$
+ []
+
+
+Overfull \hbox (57.49777pt too wide) in paragraph at lines 19--21
+\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 counter\OT1/cmr/m/n/10 ] \O
+MS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (13.67247pt too wide) in paragraph at lines 19--21
+\OML/cmm/m/it/10 val$ 
+ []
+
+! Undefined control sequence.
+l.22 	\doWhile
+              {$ counter \neq sp $}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 	\doWhile{$
+                 counter \neq sp $}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.23 \EndProcedure
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{algorithmic}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \end{algorithmic}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{algorithm}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \end{algorithm}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> fc.tex
+          
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 15 strings out of 493029
+ 228 string characters out of 6136234
+ 54069 words of memory out of 5000000
+ 3650 multiletter control sequences out of 15000+600000
+ 3948 words of font info for 15 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 18i,2n,12p,113b,76s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

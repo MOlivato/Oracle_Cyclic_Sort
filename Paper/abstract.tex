@@ -1,0 +1,25 @@
+% Abstract
+
+\noindent The {\sc CyclicSort} algorithm takes $\Theta(n^2)$ comparisons in order 
+to sort an array $v$ of $n$ integers.
+
+Even in the best case, when given an already sorted array $v$, {\sc 
+CyclicSort} still employs at least $n(n-1)$ comparisons.
+
+Yet, until now, {\sc CyclicSort} was the only sorting algorithm that, 
+assuming $O(1)$ working memory,
+
+could guarantee the minimum possible number of writes on the array $v$.
+
+And, since this property may turn out to be the most significant factor 
+in certain niche applications, {\sc Cyclic Sort} retains its own (though 
+modest) place in the Olympus of sorting algorithms.
+
+We propose smarter and more performant algorithms with this property, 
+and a first rough analysis of the issue of minimizing the number of 
+write operations within the array $v$ to be sorted.
+
+One basic tool in our approach is an oracle subroutine which returns a 
+position $i$ such that element $v[i]$ is not at its correct place, or a 
+check that array $v$ is already sorted. This subroutine offers a nice 
+decomposition opportunity for this problem.

@@ -1,0 +1,25 @@
+\begin{algorithm}
+\caption*{\textbf{Fix Cycle}: Ciclic permutation sorting procedure}
+%\label{alg1}      
+% \algsetup{indent=5em}                     % and a label for \ref{} commands later in the document
+\begin{algorithmic}[1]
+\Procedure{FC}{\newline
+$sp:initial\textunderscore ciclic\textunderscore permutation\textunderscore position $}
+    \State $temp \leftarrow v[sp]$
+	\Do
+		\State $val \leftarrow temp$
+		\State $counter \leftarrow 0$
+		
+		\For	{$i \leftarrow 0$ {\bf to} $n-1$}
+			\If{$i \neq sp$ {\bf and} $v[i] < val$}
+				\State $counter \leftarrow counter + 1$
+			\EndIf
+		\EndFor
+		
+		\State $temp \leftarrow v[counter]$
+		\State $v[counter] \leftarrow val$
+		
+	\doWhile{$ counter \neq sp $}
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}

@@ -1,0 +1,25 @@
+
+% The OCS Algorithm
+\section{Preliminaries and notation}
+
+The task is to sort an array $v$ of $n$ elements taken from a totally ordered universe.
+To ease our exposition, we assume that all elements in $v$ differ, so that the intended output vector $\overline{v}$ is unique. 
+Also, the inverse maps $v^{-1}$ and $\overline{v}^{-1}$ are well-defined.
+For $i=1,\dots,n$, position $i$ and element $v[i]$ are called \emph{fit} if $v[i]=\overline{v}[i]$, that is, if element $v[i]$ is already in its final position. 
+The specificity of the Cycle Sort algorithm is that is uses the minimum possible number of writes: no fit element gets ever moved and, when an unfit element $v[i]$ is moved, it must be placed directly in its final position $\overline{v}^{-1}[v[i]]$ and becomes fit. If we consider the graph having the set of positions $\{1,\ldots,n\}$ as its nodes, and with arc set $\{(i,\overline{v}^{-1}[v[i]]) \, : \, i=1,\ldots, n\}$, then it comprises a family of directed cycles, with each node belonging to exactly one cycle of the family (the fit positions are those holding self-loops); this is the well know representation of a permutation as a family of node-disjoint covering cycles. Given our commitment to minimize the number of writes, i.e., to achieve precisely one write/movement for every unfit element, then, when we are about to move an unfit element $v[i]$, we are due to settle all the elements of its cycle.
+
+We delegate this task to the following procedure, called \textsc{FixCycle}, which encapsulates the heart of the previous Cycle Sort algorithm (but will be managed more subtly and efficiently in our new proposal).
+
+The \textsc{FixCycle} procedure is given the index of an element to place in its final position.
+To find its final position, say i, it counts all the smaller
+elements present in the array (spending $n-1$ comparisons).
+Then, it places the element in position $i$, and it recurs to place the
+element previously in position $i$.
+
+The procedure stops when it finds an element which must be moved into the initial position, closing the cycle.
+The pseudo-code of this procedure is provided for reference in Algorithm~\ref{alg:fix_cycle}.
+
+Only procedure \textsc{FixCycle} is allowed to write elements in the array, so the final number of writes is precisely the number of writes made by this procedure, which is known to be optimal for the purpose of sorting an array.
+Our purpose is to improve on the number of comparisons.
+
+\input{code_ocs_simple/fc.tex}

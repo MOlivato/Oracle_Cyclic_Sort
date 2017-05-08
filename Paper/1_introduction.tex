@@ -1,0 +1,12 @@
+% Paper introduction to minimum write sorting algorithm
+
+\section{Introduction}
+
+The problem of sorting with the minimum number of writes was studied for the first time by the Cycle Sort\mycite{haddon1990cycle} algorithm. The core of the algorithm is based on the concept of in-place cyclic permutation\mycite{duijvestijn1972correctness} which allows to obtain the theoretical minimum number of writes.
+
+The Cycle Sort provides a solution for this problem being able to identify every different permutation cycle to run to sort the array. The OCS algorithm is suitable for environments with little memory, as it uses costant space, and environments where memory writes have high cost, in terms of time, energy or memory life.
+The main problem of the algorithm in terms of complexity is that it can't recognize a global ordered element when it arrives on it, so it must compare the element with all its successors in the last part of the array. This involves a high number of unnecessary comparisons which increase the complexity of the algorithm.
+
+Our goal is to pass quickly on elements already sorted and find an elements of a permutation cycle until the array is not sorted. 
+
+For simplicity our case study takes into consideration the sorting problem for arrays of distinct integers.

@@ -1,0 +1,28 @@
+\begin{algorithm}
+\caption*{\textbf{Unfit Oracle}: Oracle able to find the index of an unfit array element}
+%\label{alg1}      
+\begin{algorithmic}[1]
+\Function{UO}{\newline
+$ou:old\textunderscore unfit\textunderscore element\textunderscore position,\newline
+lp:index\textunderscore of\textunderscore sorted\textunderscore subarray$}
+	\State ${\bf static}$ $rp \leftarrow -1$
+	
+	\If{$ou \neq -1$ {\bf and} $ou \neq lp + 1$}
+		\For {$i \leftarrow ou$ {\bf down to} $lp$}
+			\If{$v[i] < v[i-1]$}
+				\Return {$ i-1 $}
+			\EndIf
+		\EndFor	
+	\Else
+		\State $ou = lp = rp$
+		\For {$i \leftarrow ou+1$ {\bf to} $n-1$}
+			\If{$v[i] > v[i+1]$}
+				\State $rp \leftarrow i $
+				\Return {$ i $}
+			\EndIf
+		\EndFor
+	\EndIf	
+	\Return {$ -1 $}
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
