@@ -1,14 +1,14 @@
-\begin{algorithm}
-\caption{\textsc{Fix Cycle}: Ciclic permutation sorting procedure}
+\begin{algorithm}[H]
+\caption{\textsc{FixCycle}: Ciclic permutation sorting procedure}
 \label{alg:fix_cycle}      
 \begin{algorithmic}[1]
 \Procedure{\textsc{FixCycle}}{$i$}
     \State $val \gets v[i]$
 	\Do
 		% Count the number $k$ of elements $< val$
-		\State $k \leftarrow 0$
+		\State $k \leftarrow 1$
 		
-		\For	{$j \gets 0$ {\bf to} $n-1$}
+		\For	{$j \gets 1$ {\bf to} $n$}
 			\If{$j \neq i$ {\bf and} $v[j] < val$}
 				\State $k \leftarrow k + 1$
 			\EndIf

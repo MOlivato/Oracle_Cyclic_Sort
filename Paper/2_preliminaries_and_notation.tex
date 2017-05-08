@@ -23,3 +23,10 @@ Only procedure \textsc{FixCycle} is allowed to write elements in the array, so t
 Our purpose is to improve on the number of comparisons.
 
 \input{code_ocs_simple/fc.tex}
+
+\begin{lemma}
+\label{lm_fixcycle}
+A sorting algorithm performs the minimum number of writes within 
+vector $v$ if all its writes are performed within calls to the \textsc{FixCycle}
+procedure.
+\end{lemma}

@@ -1,5 +1,9 @@
 
-% Proof of sorting correctness 
+\section{FixCycle version of Cycle Sort}
+
+% TODO: Pseudocodice del CycleSort che utilizza la funzione FixCycle
+
+\input{code_cs/cs.tex}
 
 \section{The Oracle Cyclic Sort algorithm}
 
@@ -19,7 +23,7 @@ However, we have $i+1$ such elements, i.e., $v[0],\dots,v[i-1],v[i+1]$.
 \end{proof}
 \end{thm}
 
-Observe that Theorem III.1 always
+This Theorem always
 applies for some $i$, unless v is already sorted. Indeed,
 it is sufficient to scan the array from left
 to right, and return the first index i such

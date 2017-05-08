@@ -1,6 +1,6 @@
 \section{Complexity and number of writes}
 
-After the proof of sorting correctness we will analize:
+We now analize:
 \begin{enumerate}[i.]
 \item Total number of array writes.
 \item Complexity of the algorithm.
@@ -21,10 +21,6 @@ The \textsc{OracleCyclicSort} algorithm has a simple pseudocode made of a main l
 The \textsc{FixCycle} performs $n-1$ comparisons in order to find the correct position of an element $k$. To sort the array $v$, \textsc{FixCycle} have to find the correct position of every unfit element in the array. Therefore \textsc{FixCycle} have to resolve every array's permutation cycle.
 Additional comparisons may be necessary just in case, a fit element $k$ would be passed to the procedure \textsc{FixCycle}. Nevertheless, according to the \textsc{UnfitOracle} property and the \textsc{OracleCyclicSort} algorithm, this case will never occur.
 We can conclude that, if we call $u$ the total number of unfit elements, we have $u*(n-1)$ comparisons.
-
-The \textsc{UnfitOracle} finds an element of a ciclic permutation throught $i-1$ comparisons. The variable $i$ is the index of the unfit element found.
-After the execution of \textsc{FixCycle} procedure, the element in position $i$ and other unift elements in its permutation cycle was sorted.
-If \textsc{UnfitOracle} ends with $-1$ then has perfomed $n-1$ comparisons verifying that the array is sorted, else finds another index $j \neq i$ i.e. finds another permutation cycle in v. Therefore the total number of comparisons perfomed by \textsc{UnfitOracle} is colsely related to the number of permutation cycles.
 
 If we call $m$ the number of ciclic permutations in an array v of size n, we can say that $0 \le m \le u/2 \le n/2$, because one ciclic permutation have to be made at least of two unfit elements then there are at most $n/2$ differents permutation cycles in v.
 We need less then $(n-1)$ comparison to find a permutation cycle, then a valid upperbound for \textsc{UnfitOracle} procedure is $(u/2)*(n-1) + (n-1)$ comparisons.
