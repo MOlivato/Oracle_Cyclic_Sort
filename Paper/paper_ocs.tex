@@ -33,7 +33,7 @@
 \pagestyle{fancy} % All pages have headers and footers
 \fancyhead{} % Blank out the default header
 \fancyfoot{} % Blank out the default footer
-\fancyhead[C]{Oracle Ciclic Sort $\bullet$ \today} % Custom header text
+\fancyhead[C]{Oracle Cyclic Sort $\bullet$ \today} % Custom header text
 \fancyfoot[RO,LE]{\thepage} % Custom footer text
 
 \usepackage{titling} % Customizing the title section
@@ -65,8 +65,8 @@
 \hypersetup{
   colorlinks,
   allcolors=PineGreen,
-  pdftitle={Algoritmi di ordinamento: analisi e riduzione del consumo energetico nei dispositivi mobili},
-  pdfauthor={Matteo Olivato},
+  pdftitle={Oracle Cyclic Sort: improved sorting with minimum number of writes},
+  pdfauthor={Matteo Olivato, Romeo Rizzi, Massimo Cairo},
   pdfkeywords={PDF, Sort, Comparison Sorting, Cycle Sort, Minimum write sort method, Oracle Ciclic Sort},
   linktoc=page
 }
@@ -120,9 +120,11 @@
 %----------------------------------------------------------------------------------------
 \input{1_introduction}
 \input{2_preliminaries_and_notation}
-\input{3_ocs_algorithm}
-\input{4_complexity_and_number_of_writes}
-%\input{5_conclusion}
+\input{3_cyclesort}
+\input{4_ocs_algorithm}
+\input{5_complexity_and_number_of_writes}
+\input{6_general_case}
+\input{7_conclusion}
 
 %Text requiring further explanation\footnote{Example footnote}.
 

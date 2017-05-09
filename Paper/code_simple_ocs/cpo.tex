@@ -1,0 +1,17 @@
+\begin{algorithm}[H]
+\caption{\textsc{CorrectPositionOf}: Procedure that find the correct position of an element of v}
+\label{alg:corposof}      
+\begin{algorithmic}[1]
+\Procedure{\textsc{CorrectPositionOf}}{$i$, $val$}
+	% Count the number $k$ of elements $ i < val$
+	\State $k \gets 1$
+	
+	\For	{$j \gets 1$ {\bf to} $n$}
+		\If{$j \neq i$ {\bf and} $v[j] < val$}
+			\State $k \gets k + 1$
+		\EndIf
+	\EndFor
+	\Return {$ k $}
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}

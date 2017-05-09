@@ -5,20 +5,13 @@
 \Procedure{\textsc{FixCycle}}{$i$}
     \State $val \gets v[i]$
 	\Do
-		% Count the number $k$ of elements $< val$
-		\State $k \leftarrow 1$
 		
-		\For	{$j \gets 1$ {\bf to} $n$}
-			\If{$j \neq i$ {\bf and} $v[j] < val$}
-				\State $k \leftarrow k + 1$
-			\EndIf
-		\EndFor
-		
+		\State $cpos \gets \textsc{CorrectPositionOf}(i, val)$
 		% Place $val$ in the final position $k$, and pick the next element.
-		\State $temp \leftarrow v[k]$
-		\State $v[k] \leftarrow val$
+		\State $temp \gets v[cpos]$
+		\State $v[cpos] \gets val$
 		\State $val \gets temp$
-	\doWhile{$k \neq i$}
+	\doWhile{$cpos \neq i$}
 \EndProcedure
 \end{algorithmic}
 \end{algorithm}
